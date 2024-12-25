@@ -11,7 +11,7 @@ import SwiftUI
 struct WebViewInterceptorPOCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WebViewContainer()
         }
     }
 }

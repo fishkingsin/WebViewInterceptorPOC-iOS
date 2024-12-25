@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1AB25E182D1C21E7002585DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB25E172D1C21E7002585DD /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1AB25DF12D1C11AA002585DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB25E182D1C21E7002585DD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = WebViewInterceptorPOC;
 			packageProductDependencies = (
+				1AB25E172D1C21E7002585DD /* Alamofire */,
 			);
 			productName = WebViewInterceptorPOC;
 			productReference = 1AB25DDF2D1C11A9002585DD /* WebViewInterceptorPOC.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 1AB25DD62D1C11A9002585DD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1AB25E162D1C21E7002585DD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1AB25DE02D1C11A9002585DD /* Products */;
 			projectDirPath = "";
@@ -583,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AB25E162D1C21E7002585DD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AB25E172D1C21E7002585DD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AB25E162D1C21E7002585DD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AB25DD72D1C11A9002585DD /* Project object */;
 }
