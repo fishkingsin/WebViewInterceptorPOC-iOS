@@ -14,7 +14,7 @@ enum WebviewInterceptorError: Error {
     case invalidDomain
 }
 enum WebviewInterceptorResult {
-    case passthrough(url: URL)
+    case redirect(url: URL)
     case manipulated(content: String)
 }
 

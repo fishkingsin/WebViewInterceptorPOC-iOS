@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct WebViewContainer: View {
-    @State private var urlString: String = "https://ebx.sh/e3TNyP"
+    @State private var urlString: String = "https://p.nmg.com.hk/cgtvw0"
     @State private var interceptedURL: URL?
 
     var body: some View {

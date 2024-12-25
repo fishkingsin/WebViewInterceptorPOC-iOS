@@ -16,6 +16,6 @@ class DefaultWebviewInterceptor: WebviewInterceptor {
         debugPrint ("Response code: \(code) data: \(data) response: \(response)")
         debugPrint("redirectURL \(redirectURL)")
         debugPrint ("Redirecting to \(url)")
-        return .success(.passthrough(url: redirectURL))
+        return .success(.redirect(url: redirectURL))
     }
 }

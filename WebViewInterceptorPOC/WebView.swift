@@ -51,7 +51,7 @@ struct WebView: UIViewRepresentable {
                 switch result {
                 case .success(let webViewInterceptorResult):
                     switch webViewInterceptorResult {
-                    case .passthrough(url: let url):
+                    case .redirect(url: let url):
                         webView.load(URLRequest(url: url))
                         return .cancel
                     case .manipulated(let content):
